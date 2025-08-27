@@ -1,6 +1,7 @@
 #task - 1
 import random
 #User input
+
 print("Welcome to the Band Name Generator. 🐾✨") # It will print the welcome message.
 # input is stored in the username variable
 city = input("what's the name of the city you grew up in?\n")
