@@ -24,7 +24,7 @@ These projects were built while learning Python fundamentals, including user inp
 ## How to Run a Project
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/YourUsername/Python-Mini-Projects.git
+   https://github.com/shalini-mitra/100-mini-python-projects.git
 Navigate to the project folder.
 
 Run the Python file:
