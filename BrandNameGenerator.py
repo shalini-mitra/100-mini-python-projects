@@ -15,3 +15,15 @@ emoji = random.choice(emojis)
 num = random.randint(1, 99)
 
 print(f'Your band name could be: {adj} {city} {petname}{num}{emoji}')
+
+
+#task - 2
+
+print("welcome to the tip calculator!")
+Bill = float(input("What was the total bill?$ "))
+Tip = int(input("How much tip would you like to give? 10, 12 or 15? "))
+Tip_as_percent = float(Tip/100)
+Split_bill = int(input("How many people to split the bill? "))
+Tip_amount = Bill * Tip_as_percent
+Total_bill = (Bill + Tip_amount)/Split_bill
+print(f'Each person should pay: ${Total_bill:.2f}')
