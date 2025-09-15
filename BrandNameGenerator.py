@@ -214,8 +214,7 @@ print(f'Here is your unique password: {password_string}')
 #     if right_is_clear():
 #         turn_right()
 #         move()
+#     elif front_is_clear():
+#         move()
 #     else:
-#         if front_is_clear():
-#             move()
-#         else:
-#             turn_left()
+#         turn_left()
